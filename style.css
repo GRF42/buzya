@@ -1,0 +1,139 @@
+html, body {
+    height: 99%
+}
+.wrapper{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.content {
+    flex: 1 1 auto;
+}
+.container {
+    max-width: 1180px;
+    margin: 0px auto;
+    
+}
+.up {
+    background-color: #3fb054;
+    color:white
+}
+.shapka {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+.ssilki {
+    display: flex;
+    gap: 15px;
+}
+.ssilki a {
+    color: white;
+}
+.team {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 15px;
+    align-items: center;
+}
+.zagolovok{
+    font-family: cursive;
+    margin: 10px 0
+}
+.team img{
+    max-height: 304px;    
+}
+.info h1{
+    margin-top: -50px;
+}
+.but {
+    display: flex;
+    padding-left: 38px;
+}
+.button {
+    background: #00FF7F;
+    border: none;
+    border-radius: 10px;
+    font-family:serif;
+    font-weight: 900;
+}
+.midtext{
+    display: flex;
+    justify-content: center;
+}
+.person {
+    display: flex;
+}
+.perleft,.perright {
+    display: flex;
+    width: 590px;
+    justify-content: space-around
+    
+}
+.rama,.ay,.da,.ha  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.rama p,.ay p,.da p,.ha p {
+    margin: 0px;
+    font-family: cursive;
+}
+.bot,.mid{
+    background:  	#90EE90;
+}
+.ci {
+    font-family: monospace;
+    font-size: 42px;
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0px 0px 0px;
+    
+}
+.citata{
+    padding-left: 100px;
+}
+.avtor {
+    display: flex;
+    justify-content: flex-end;  
+}
+.box {
+    display: flex;
+    justify-content: space-around;
+    background:#00FF7F;
+    padding: 10px;
+}
+.boxbut {
+    display: flex;
+    align-self: center;    
+}
+.niz {
+    background: #3fb054;
+    padding: 50px
+}
+.textbox{
+     font-family: monospace;
+    font-style: italic;   
+}
+.textbox h2, .textbox p{
+    margin: 0px;
+    font-size: 30px;
+}
+.box button {
+    background: #00FF7F;
+    display: flex;
+    padding: 4px;
+    border-radius: 10px;
+    border: 5px yellow solid;
+    font-family:cursive ;
+    font-style: italic;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #90EE90;
+    font-family: cursive;
+}
+
